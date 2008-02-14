@@ -22,8 +22,9 @@ $TCA['tx_commentsipbl_local'] = array (
 			'label' => 'LLL:EXT:comments_ipbl/locallang_db.xml:tx_commentsipbl_local.crdate',
 			'config' => array(
 				'type' => 'input',
-				'eval' => 'datetime',
+				'eval' => 'tx_commentsipbl_hooks,datetime',
 				'readOnly' => true,
+				'default' => time(),
 			),
 		),
 		'comment' => array (

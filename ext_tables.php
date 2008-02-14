@@ -7,10 +7,11 @@ $TCA['tx_commentsipbl_local'] = array (
 		'tstamp'    => 'tstamp',
 		'crdate'    => 'crdate',
 		'cruser_id' => 'cruser_id',
-		'default_sortby' => "ORDER BY ipaddr",
+		'default_sortby' => 'ORDER BY ipaddr',
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY).'tca.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY).'icon_tx_commentsipbl_local.gif',
-	),
+		'rootLevel' => -1,
+),
 );
 
 $TCA['tx_commentsipbl_static'] = array (
@@ -20,7 +21,7 @@ $TCA['tx_commentsipbl_static'] = array (
 		'tstamp'    => 'tstamp',
 		'crdate'    => 'crdate',
 		'cruser_id' => 'cruser_id',
-		'default_sortby' => "ORDER BY ipaddr",
+		'default_sortby' => 'ORDER BY ipaddr',
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY).'tca.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY).'icon_tx_commentsipbl_static.gif',
 		'is_static'	=> true,
