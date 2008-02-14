@@ -1,0 +1,2 @@
+# cat=basic/enable; type=string; label=Network blocking lists:Comma-separated list of network blocking lists (such as cbl.abuseat.org)
+dnsbl_list =

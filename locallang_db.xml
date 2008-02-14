@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'comments_ipbl'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_commentsipbl_local">Local IP blocking list for comments</label>
+			<label index="tx_commentsipbl_local.ipaddr">IP address:</label>
+			<label index="tx_commentsipbl_local.crdate">Added:</label>
+			<label index="tx_commentsipbl_local.comment">Comment:</label>
+			<label index="tx_commentsipbl_static">Static IP blocking list for comments</label>
+			<label index="tx_commentsipbl_static.ipaddr">IP address:</label>
+			<label index="tx_commentsipbl_static.comment">Comment:</label>
+		</languageKey>
+	</data>
+</T3locallang>
