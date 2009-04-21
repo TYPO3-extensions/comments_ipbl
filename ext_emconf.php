@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext: "comments_ipbl"
 #
-# Auto generated 14-02-2008 16:52
+# Auto generated 22-09-2008 13:14
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -14,8 +14,8 @@ $EM_CONF[$_EXTKEY] = array(
 	'title' => 'IP blocking for comments',
 	'description' => 'Uses DNSBLs for blocking certain IP addresses and implements own DNSBL',
 	'category' => 'fe',
-	'author' => 'Dmitry Dulepov [netcreators]',
-	'author_email' => 'dmitry@typo3.org',
+	'author' => 'Netcreators BV',
+	'author_email' => 'extensions@netcreators.com',
 	'shy' => '',
 	'dependencies' => 'comments',
 	'conflicts' => '',
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.1.0',
+	'version' => '0.1.1',
 	'constraints' => array(
 		'depends' => array(
 			'php' => '5.2.1-0.0.0',
@@ -40,7 +40,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:18:{s:9:"ChangeLog";s:4:"f6a1";s:31:"class.tx_commentsipbl_hooks.php";s:4:"e611";s:20:"createstaticdata.php";s:4:"ef3c";s:17:"debugger-slow.png";s:4:"553b";s:21:"ext_conf_template.txt";s:4:"e01c";s:12:"ext_icon.gif";s:4:"ff1e";s:17:"ext_localconf.php";s:4:"21e1";s:14:"ext_tables.php";s:4:"166c";s:14:"ext_tables.sql";s:4:"fa7c";s:25:"ext_tables_static+adt.sql";s:4:"149f";s:30:"icon_tx_commentsipbl_local.gif";s:4:"ff1e";s:31:"icon_tx_commentsipbl_static.gif";s:4:"737e";s:16:"locallang_db.xml";s:4:"f5fc";s:7:"tca.php";s:4:"84c5";s:14:"doc/manual.sxw";s:4:"d41d";s:13:"res/email.txt";s:4:"feca";s:45:"static/ip_blocking_for_comments/constants.txt";s:4:"0c19";s:41:"static/ip_blocking_for_comments/setup.txt";s:4:"d41d";}',
+	'_md5_values_when_last_written' => 'a:18:{s:9:"ChangeLog";s:4:"4124";s:31:"class.tx_commentsipbl_hooks.php";s:4:"e611";s:20:"createstaticdata.php";s:4:"ef3c";s:17:"debugger-slow.png";s:4:"553b";s:21:"ext_conf_template.txt";s:4:"e01c";s:12:"ext_icon.gif";s:4:"ff1e";s:17:"ext_localconf.php";s:4:"21e1";s:14:"ext_tables.php";s:4:"5b53";s:14:"ext_tables.sql";s:4:"fa7c";s:25:"ext_tables_static+adt.sql";s:4:"149f";s:30:"icon_tx_commentsipbl_local.gif";s:4:"ff1e";s:31:"icon_tx_commentsipbl_static.gif";s:4:"737e";s:16:"locallang_db.xml";s:4:"f5fc";s:7:"tca.php";s:4:"0acf";s:14:"doc/manual.sxw";s:4:"6bc8";s:13:"res/email.txt";s:4:"feca";s:45:"static/ip_blocking_for_comments/constants.txt";s:4:"0c19";s:41:"static/ip_blocking_for_comments/setup.txt";s:4:"d41d";}',
 	'suggests' => array(
 	),
 );
